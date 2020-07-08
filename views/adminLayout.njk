@@ -10,28 +10,20 @@
   </head>
   <body>
     <div class="container">
-      <header>
-        <a href="/">
-          <img src="/assets/logo.png" alt="Logo Foodfy"/>
-        </a>
-        <nav>
-          <div>
-            <a href="/about">Sobre</a>
-            <a href="/recipes">Receitas</a>
-          </div>
-          <div class="link__admin">
-            <a href="/admin/recipes">Admin</a>
-          </div>
-        </nav>
+      <header class="admin__header">
+        <div class="header__content">
+          <a href="/">
+            <img src="/assets/logo2.png" alt="Logo Foodfy"/>
+          </a>
+
+          <a href="/admin/recipes" class="link__manager">Gerenciar receitas</a>
+        </div>
+
       </header>
 
       {% block content %}{% endblock content %}
 
     </div>
-
-    <footer>
-      <p>Todos os direitos reservados, receitas Foodfy</p>
-    </footer>
 
   </body>
 

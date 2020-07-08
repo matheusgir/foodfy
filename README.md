@@ -22,5 +22,5 @@ Foodfy
 1. Faça o clone ou download deste repositório
 2. Instale as dependências com: `npm install`
 3. Para iniciar: `npm start`
-4. Entre no seu navegador com a url: `http://localhost:5000`
+4. Entre no seu navegador com a url: `http://localhost:4000`
 
